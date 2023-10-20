@@ -1,0 +1,69 @@
+/*Aqui foi definido um padrão de letra e cor de fundo para todo o HTML*/
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ddd;
+    /*Aqui foi definido a centralização do container, tamanho, cor e margem dos paragráfos*/
+}
+.container{
+    max-width: 1100px;
+    background-color: #fff;
+    position: relative;
+    margin: 50px auto;
+    padding: 50px 20px;
+}
+/*Aqui foi inserido em negrito a classe bold*/
+.bold{
+    font-weight: bold;
+}
+/* header*/
+.header{
+    text-align: center;
+}
+.main-title{
+    font-size: 40px;
+}
+.main-paragraph{
+    font-style: italic;
+}
+/*Centralizando imagens*/
+.featured-image{
+    text-align: center;
+    margin-top: 30px;
+}
+/*Biografia*/
+.biography-container{
+    padding: 25px 0;
+    margin: 25px 0;
+    border-top: 1px dashed #ddd;
+    border-bottom: 1px dashed #ddd;
+}
+/*Quotes*/
+.quotes-container{
+    background-color: #ddd;
+    padding: 30px;
+}
+.quotes-container blockquote{
+    font-weight: bold;
+    font-size: 30px;
+
+}
+.quotes-container p{
+    font-style: italic;
+}
+.curiosities-container{
+    padding: 25px 0;
+    margin: 25px 0;
+    border-top: 1px dashed #ddd;
+    border-bottom: 1px dashed #ddd;
+}
+.curiosities-container li{
+    height: 45px;
+    line-height: 20px;
+}
+.img-bold{
+    font-weight: bold;
+    text-align: center;
+}
+.quotes-container featured-image2{
+    text-align: center;
+}
